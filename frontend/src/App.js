@@ -1,17 +1,21 @@
 import * as React from 'react';
+
+import { Switch, Route } from 'react-router-dom';
+
 import HomePage from './pages/homepage/homepage.component';
 import Header from './components/header/header.component';
+import CheckoutPage from './pages/checkout/checkout.component';
+
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
       <Header />
-      <Routes>
-        <Route exact path='/' component={HomePage}></Route>
-      </Routes>
-      <HomePage />
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path='/checkout' component={CheckoutPage} />
+      </Switch>
     </div>
   );
 }
