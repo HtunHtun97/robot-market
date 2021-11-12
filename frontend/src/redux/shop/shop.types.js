@@ -1,0 +1,7 @@
+const ShopActionTypes = {
+  FETCH_ROBOT_START: 'FETCH_ROBOT_START',
+  FETCH_ROBOT_SUCCESS: 'FETCH_ROBOT_SUCCESS',
+  FETCH_ROBOT_FAILURE: 'FETCH_ROBOT_FAILURE',
+};
+
+export default ShopActionTypes;
