@@ -1,9 +1,7 @@
 # Robot Market
 
-This is an e-commerce site for you to buy robots. The homepage should display a list of robots for people to browse,
-where on the right side of the screen should display a cart that show a list of selected robots.
-
-Please read the instructions and FAQ below before begin.
+This is an e-commerce site for you to buy robots. The homepage displays a list of robots for people to browse,
+where on the right side of the screen displays a cart that show a list of selected robots.
 
 ## Features
 
@@ -21,49 +19,3 @@ Please read the instructions and FAQ below before begin.
     - user can increase or decrease the number of robots inside of cart section
     - total amount should be the total number of selected robots
     - total price should be in Thai Baht formatted, `฿5,300.00`
-
-## Robots API
-
-**DO NOT CHANGE API RESPONSE INSIDE SERVER FOLDER**
-
-- The basic query looks like this: `/api/robots`
-- The response format is JSON
-```
-{
-  name
-  image
-  price
-  stock
-  createdAt
-  material
-}
-```
-
-## FAQs
-
-### How do I start the app?
-
-At the very beginning please fork or clone this repository into your own private repository (github / bitbucket).
-During all development please make regular commits while working on this app.
-
-Start both server and frontend project by using `npm start` command. The port for frontend is `localhost:3000`, and for
-server is `localhost:8000`
-
-### What libraries/frameworks, packages, tools can I use?
-
-The project frontend is in React.js (you can select between js or ts), but other than that you are free to use whatever
-libraries/frameworks, packages, tools that you want.
-
-### What should I do when I'm finished?
-
-After you have finished you work push all commits to your repository, and then send us email to inform that app has been finished, also please add following users there:
-* win@morphos.is
-* suhas@morphos.is
-
-### How is the exam graded?
-
-We are looking for idiomatic use of JavaScript, and the ability to solve the problem with code that is clean and easy to
-read. Please show us how you would use the language and conventions to structure things in a clear and maintainable way.
-
-Even though we are not giving you the UI design, we believe that as a Frontend Developer you should have some ideas of
-how it should look. You are free to use any styling tools that you want, SASS, css-in-js, or even styled-components.
